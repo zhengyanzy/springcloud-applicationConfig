@@ -2,6 +2,8 @@ spring:
   profiles:
     active: dev
 ---
+server: 
+  port: 9201 
 spring:
   profiles: dev
   application:
